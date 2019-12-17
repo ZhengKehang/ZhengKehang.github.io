@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a3af7"],{"02dc":function(n,e,t){"use strict";t.r(e);var a=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",{staticClass:"invite-box"},[n._v("邀请好友")])},i=[],c={name:"invite"},s=c,u=t("2877"),l=Object(u["a"])(s,a,i,!1,null,"753d3095",null);e["default"]=l.exports}}]);
