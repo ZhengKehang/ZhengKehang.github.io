@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "less-loader": "^5.0.0",
+    "yarn": "^1.21.1"
+  },
+  "devDependencies": {
+    "echarts": "^4.6.0",
+    "less": "^3.10.3"
+  }
+}
