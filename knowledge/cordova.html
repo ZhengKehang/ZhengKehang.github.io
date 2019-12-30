@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>cordova安装及配置 | 阿航的个人博客</title>
+    <meta name="description" content="所以我们不丧胆，外体虽然一天天毁坏，内心却一天新似一天。">
+    <link rel="icon" href="/icon.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.17a8f5ca.css" as="style"><link rel="preload" href="/assets/js/app.359e758d.js" as="script"><link rel="preload" href="/assets/js/2.bc0bd956.js" as="script"><link rel="preload" href="/assets/js/10.7bb6eba4.js" as="script"><link rel="prefetch" href="/assets/js/11.2331d5cd.js"><link rel="prefetch" href="/assets/js/12.70e27fa5.js"><link rel="prefetch" href="/assets/js/13.9d05f688.js"><link rel="prefetch" href="/assets/js/14.dab49b68.js"><link rel="prefetch" href="/assets/js/15.86abd75c.js"><link rel="prefetch" href="/assets/js/16.3db1f19c.js"><link rel="prefetch" href="/assets/js/17.d6edfe04.js"><link rel="prefetch" href="/assets/js/18.be7991eb.js"><link rel="prefetch" href="/assets/js/19.d93a6a4e.js"><link rel="prefetch" href="/assets/js/20.02056b32.js"><link rel="prefetch" href="/assets/js/21.53038d0a.js"><link rel="prefetch" href="/assets/js/22.68267f93.js"><link rel="prefetch" href="/assets/js/23.ce3e25c4.js"><link rel="prefetch" href="/assets/js/24.2a38ff1f.js"><link rel="prefetch" href="/assets/js/25.958d513f.js"><link rel="prefetch" href="/assets/js/26.babcc6cd.js"><link rel="prefetch" href="/assets/js/27.9215e5d3.js"><link rel="prefetch" href="/assets/js/28.749709eb.js"><link rel="prefetch" href="/assets/js/29.0b243a1a.js"><link rel="prefetch" href="/assets/js/3.badd2364.js"><link rel="prefetch" href="/assets/js/30.7a8ab6c8.js"><link rel="prefetch" href="/assets/js/31.ab1162bb.js"><link rel="prefetch" href="/assets/js/32.7d924354.js"><link rel="prefetch" href="/assets/js/33.4a16fb0b.js"><link rel="prefetch" href="/assets/js/34.a58c6037.js"><link rel="prefetch" href="/assets/js/4.e73462e7.js"><link rel="prefetch" href="/assets/js/5.e8e18338.js"><link rel="prefetch" href="/assets/js/6.c0920aff.js"><link rel="prefetch" href="/assets/js/7.dcc0f8e2.js"><link rel="prefetch" href="/assets/js/8.b1b44266.js"><link rel="prefetch" href="/assets/js/9.48a97201.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.17a8f5ca.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">阿航的个人博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/mine/" class="nav-link">我的经历</a></div><div class="nav-item"><a href="/knowledge/" class="nav-link router-link-active">积累知识</a></div><div class="nav-item"><a href="/mind/" class="nav-link">代码生活</a></div> <a href="https://github.com/ZhengKehang/ZhengKehang.github.io.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/mine/" class="nav-link">我的经历</a></div><div class="nav-item"><a href="/knowledge/" class="nav-link router-link-active">积累知识</a></div><div class="nav-item"><a href="/mind/" class="nav-link">代码生活</a></div> <a href="https://github.com/ZhengKehang/ZhengKehang.github.io.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>积累知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/" class="sidebar-link">知识体系简介</a></li><li><a href="/knowledge/ES5.html" class="sidebar-link">ES5基础知识</a></li><li><a href="/knowledge/vue的生命周期.html" class="sidebar-link">Vue的生命周期</a></li><li><a href="/knowledge/cordova.html" class="active sidebar-link">cordova安装及配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#node-安装" class="sidebar-link">node 安装</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#cordova安装" class="sidebar-link">cordova安装</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#java-sdk" class="sidebar-link">java sdk</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#android-sdk" class="sidebar-link">android sdk</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#grale" class="sidebar-link">grale</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#ant" class="sidebar-link">ant</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#环境变量配置" class="sidebar-link">环境变量配置:</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#运行命令校验" class="sidebar-link">运行命令校验</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#项目创建步骤" class="sidebar-link">项目创建步骤</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#创建后的处理" class="sidebar-link">创建后的处理</a></li><li class="sidebar-sub-header"><a href="/knowledge/cordova.html#cordova一键打包到手机" class="sidebar-link">cordova一键打包到手机</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="cordova安装及配置"><a href="#cordova安装及配置" class="header-anchor">#</a> cordova安装及配置</h1> <h2 id="node-安装"><a href="#node-安装" class="header-anchor">#</a> node 安装</h2> <h2 id="cordova安装"><a href="#cordova安装" class="header-anchor">#</a> cordova安装</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>npm install -g -cordova 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>使用cnpm淘宝镜像会有问题</p></div> <h2 id="java-sdk"><a href="#java-sdk" class="header-anchor">#</a> java sdk</h2> <h2 id="android-sdk"><a href="#android-sdk" class="header-anchor">#</a> android sdk</h2> <div class="custom-block tip"><p class="custom-block-title">下载地址</p> <p>http://www.androiddevtools.cn/</p></div> <h2 id="grale"><a href="#grale" class="header-anchor">#</a> grale</h2> <h2 id="ant"><a href="#ant" class="header-anchor">#</a> ant</h2> <h2 id="环境变量配置"><a href="#环境变量配置" class="header-anchor">#</a> 环境变量配置:</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>ANDROID_HOME	D:\android-sdk-windows
+ANT_HOME 		D:\cordova\apache-ant-1.9.14
+GRADLE_HOME		D:\cordova\gradle-5.6.2
+JAVA_HOME		D:\Program Files\Java\jdk1.8.0_212
+CLASSPATH		.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tool.jar;%ANT_HOME%\lib
+![](cordova_files/1.jpg)
+![](cordova_files/2.jpg)
+PATH 
+	%JAVA_HOME%\bin 
+	%ANDROID_HOME%\bin 
+	%ANDROID_HOME%\build-tools\29.0.2 
+	%ANDROID_HOME%\platform-tools 
+	%ANDROID_HOME%\tools %CLASSPATH% 
+	%ANT_HOME%\bin 
+	%GRADLE_HOME%\bin
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="运行命令校验"><a href="#运行命令校验" class="header-anchor">#</a> 运行命令校验</h2> <ul><li>npm -v</li> <li>java -version</li> <li>adb //验证Android 有些需要以管理员身份运行</li> <li>grale -v</li> <li>ant -v</li></ul> <h2 id="项目创建步骤"><a href="#项目创建步骤" class="header-anchor">#</a> 项目创建步骤</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+//创建项目并指定apk
+cordova create cloudpmsdk com.ecidi.cloudpm 云平台     //文件名 包名 app名
+//添加安卓平台
+cordova platform add android
+//添加ios平台
+cordova platform add ios
+
+//添加插件
+cordova plugin add cordova-hot-code-push-plugin
+cordova plugin add cordova-plugin-add-swift-support
+cordova plugin add cordova-plugin-file
+cordova plugin add cordova-plugin-file-opener2
+cordova plugin add cordova-plugin-file-transfer
+cordova plugin add https://github.com/giantss/cordova-plugin-ImagePicker.git
+cordova plugin add cordova-plugin-media-capture
+cordova plugin add cordova-plugin-qrscanner //扫码
+cordova plugin add cordova-plugin-splashscreen
+cordova plugin add cordova-plugin-statusbar
+cordova plugin add cordova-plugin-whitelist
+cordova plugin add cordova-plugin-fingerprint-aio --save //指纹登录
+
+cordova plugin add jpush-phonegap-plugin --variable APP_KEY=1197367434c755700ea20d2e //极光推送
+//打包
+cordova build android
+
+cordova run android//连接USB打包到手机
+//移除平台
+cordova platform rm android
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><h2 id="创建后的处理"><a href="#创建后的处理" class="header-anchor">#</a> 创建后的处理</h2> <p>1.android 9.0兼容非https的访问
+在res目录下新建xml文件夹，创建xml文件network_security_config.xml如下：</p> <div class="language-xml line-numbers-mode"><pre class="language-xml"><code><span class="token prolog">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>network-security-config</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>base-config</span> <span class="token attr-name">cleartextTrafficPermitted</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>trust-anchors</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>certificates</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>system<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>trust-anchors</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>base-config</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>network-security-config</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>在清单文件AndroidManifest.xml的application标签里面设置networkSecurityConfig属性如下：</p> <div class="language-xml line-numbers-mode"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>application</span> <span class="token attr-name"><span class="token namespace">android:</span>networkSecurityConfig</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>@xml/network_security_config<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>application</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>2.image-picker插件的问题
+直接使用管理员身份运行命令行工具，在对应地址执行
+cordova plugin add https://github.com/giantss/cordova-plugin-ImagePicker.git
+如果安装成功仍旧不能使用，或者因为网络问题安装失败，直接去网址的realse下，下载最新包。
+然后使用管理员身份运行命令行工具，在对应地址执行
+cordova plugin add g:/cordova/demo
+然后更新平台cordova platform update android</p> <p>3.兼容image-picker和qrscanner组件对于相机权限的重复配置
+注释掉其中一个插件的plugin.xml文件中的配置,例如：plugins/cordova-plugin-qrscanner/plugin.xml中：</p> <div class="language-xml line-numbers-mode"><pre class="language-xml"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>platform</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>android<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+	...
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>config-file</span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>AndroidManifest.xml<span class="token punctuation">&quot;</span></span> <span class="token attr-name">parent</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>/*<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token comment">&lt;!-- &lt;uses-permission android:name=&quot;android.permission.CAMERA&quot; android:required=&quot;false&quot; /&gt; --&gt;</span>//注释这一行
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uses-feature</span> <span class="token attr-name"><span class="token namespace">android:</span>name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>android.hardware.camera<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">android:</span>required</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uses-feature</span> <span class="token attr-name"><span class="token namespace">android:</span>name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>android.hardware.camera.front<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">android:</span>required</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>config-file</span><span class="token punctuation">&gt;</span></span>
+	...
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>platform</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="cordova一键打包到手机"><a href="#cordova一键打包到手机" class="header-anchor">#</a> cordova一键打包到手机</h2> <p>修改vue项目里webpack配置
+文件地址：config/index.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>build <span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  index<span class="token punctuation">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'../../../cordova/cloudpmsdk/www/index.html'</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token comment">//模板地址</span>
+  assetsRoot<span class="token punctuation">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'../../../cordova/cloudpmsdk/www'</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token comment">//打包后文件要存放的路径（根据本地地址调整）</span>
+  assetsSubDirectory<span class="token punctuation">:</span> <span class="token string">'static'</span><span class="token punctuation">,</span><span class="token comment">//除了 index.html 之外的静态资源要存放的路径，</span>
+  assetsPublicPath<span class="token punctuation">:</span> <span class="token string">'./'</span><span class="token punctuation">,</span><span class="token comment">//代表打包后，index.html里面引用资源的的相对地址</span>
+  productionSourceMap<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  devtool<span class="token punctuation">:</span> <span class="token string">'#source-map'</span><span class="token punctuation">,</span>
+  bundleAnalyzerReport<span class="token punctuation">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span>npm_config_report
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>使用脚本，运行后直接打包到手机（注意手机需要连接USB）</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>g:
+cd engineering\cloudpm
+call npm run build
+cd /
+cd cordova\cloudpmsdk
+call cordova run android
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>使用脚本，运行后删除旧包生成一个新的包</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>g:
+cd engineering\cloudpm
+call npm run build
+cd /
+cd cordova\cloudpmsdk\platforms\android\app\build\outputs\apk\debug
+del app-debug.apk
+cd \
+cd cordova\cloudpmsdk
+call cordova build android
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="custom-block tip"><p class="custom-block-title">进一步设想</p> <p>将热更新地址指向本地，实现本地编译手机端直接更新</p></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/ZhengKehang/ZhengKehang.github.io.git/edit/master/knowledge/cordova.md" target="_blank" rel="noopener noreferrer">编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">12/25/2019, 1:36:35 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/knowledge/vue的生命周期.html" class="prev">Vue的生命周期</a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.359e758d.js" defer></script><script src="/assets/js/2.bc0bd956.js" defer></script><script src="/assets/js/10.7bb6eba4.js" defer></script>
+  </body>
+</html>
